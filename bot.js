@@ -19,7 +19,7 @@ bot1.on('ready', () => {
   var embed = new Discord.RichEmbed()
     .setAuthor(message.author.tag,message.author.avatarURL)
     .setDescription(message.content)
-    .setImage(message.attachments.array()[0].url)
+ //   .setImage(message.attachments.array()[0].url)
     .setColor("#fc0000");
     bot1.channels.get('502659020146868224').send(embed);
  }
@@ -32,7 +32,7 @@ bot1.on('ready', () => {
    var embed = new Discord.RichEmbed()
      .setAuthor(message.author.tag,message.author.avatarURL)
      .setDescription(message.content)
-     .setImage(message.attachments.array()[0].url)
+   //  .setImage(message.attachments.array()[0].url)
      .setColor("#f700fc");
      bot1.channels.get('502659427598598155').send(embed);
   }
@@ -45,7 +45,7 @@ bot1.on('ready', () => {
     var embed = new Discord.RichEmbed()
       .setAuthor(message.author.tag,message.author.avatarURL)
       .setDescription(message.content)
-      .setImage(message.attachments.array()[0].url)
+   //   .setImage(message.attachments.array()[0].url)
       .setColor("#0029fc");
       bot1.channels.get('502659883087429632').send(embed);
    }
@@ -58,7 +58,7 @@ bot1.on('ready', () => {
      var embed = new Discord.RichEmbed()
        .setAuthor(message.author.tag,message.author.avatarURL)
        .setDescription(message.content)
-       .setImage(message.attachments.array()[0].url)
+      // .setImage(message.attachments.array()[0].url)
        .setColor("#00fcfc");
        bot1.channels.get('502659490186002433').send(embed);
     }
