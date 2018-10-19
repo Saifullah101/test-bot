@@ -9,7 +9,7 @@ bot.on('ready', () => {
 
 bot1.on('ready', () => {
   console.log(`Logged in as ${bot1.user.tag}.`);
-  bot1.user.setStatus('invisible')
+  bot1.user.setStatus('online')
 });
 
  bot.on('message', message=>{
