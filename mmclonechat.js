@@ -36,4 +36,4 @@ bot5.on('error', console.error);
 bot3.on('error', console.error);
 
 bot3.login(process.env.BOT3_TOKEN)
-bot5.login(process.env.BOT3_TOKEN)
+bot5.login(process.env.BOT5_TOKEN)
