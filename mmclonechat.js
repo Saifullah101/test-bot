@@ -1,6 +1,3 @@
-const Discord = require('discord.js');
-const bot = new Discord.Client();
-
 const Discord3 = require('discord.js');
 const bot3 = new Discord.Client();
 
@@ -31,9 +28,6 @@ bot3.on('message', message=>{
    }
 
 });
-
-bot5.on('error', console.error);
-bot3.on('error', console.error);
 
 bot3.login(process.env.BOT3_TOKEN);
 bot5.login(process.env.BOT5_TOKEN);
